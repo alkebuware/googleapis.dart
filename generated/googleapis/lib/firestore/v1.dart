@@ -4746,7 +4746,7 @@ class Value {
           _json['mapValue'] as core.Map<core.String, core.dynamic>);
     }
     if (_json.containsKey('nullValue')) {
-      nullValue = _json['nullValue'] as core.String;
+      nullValue = _json['nullValue'] as core.Null;
     }
     if (_json.containsKey('referenceValue')) {
       referenceValue = _json['referenceValue'] as core.String;
